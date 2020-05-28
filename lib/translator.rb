@@ -27,5 +27,4 @@ def get_english_meaning(file_path, emoticon)
 
   emoticon == library[key][:japanese] 
     library[key]
-  end
 end
