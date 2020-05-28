@@ -25,6 +25,5 @@ def get_japanese_emoticon(file_path, emoticon)
 def get_english_meaning(file_path, emoticon)
   library = load_library(file_path)
 
-  emoticon == library[key][:japanese] 
-    library[key]
+  emoticon == library[key][:japanese]
 end
