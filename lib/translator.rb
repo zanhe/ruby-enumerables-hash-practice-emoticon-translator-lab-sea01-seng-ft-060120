@@ -29,4 +29,5 @@ def get_english_meaning(file_path, emoticon)
   
   library.find do |emoticon|
     emoticon
+    library[key]
 end
